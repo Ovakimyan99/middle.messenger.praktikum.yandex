@@ -51,7 +51,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: Сheck if the repository is private
       run: exit 1
-      if: ${{github.event.repository.private}}
+      if: ${{github.event.repository.public}}
     - name: Get testing lib
       run: set -eu && git clone https://github.com/Yandex-Practicum/tests-second-floor.git
     - name: Check dist and node_modules in .gitignore

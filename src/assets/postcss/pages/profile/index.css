@@ -108,3 +108,11 @@
     margin-top: 4rem;
 }
 
+.profile-input {
+    text-align: right;
+    border: .1rem solid transparent;
+}
+
+.profile-input:focus {
+    border: .1rem solid var(--base-dark);
+}
