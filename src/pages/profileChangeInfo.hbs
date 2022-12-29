@@ -9,12 +9,24 @@
         <!--    List   -->
         {{#> 'pages/profile/ProfileInfoList'}}
             <!--    Rows   -->
-            {{> 'pages/profile/ProfileInfoRow' key-text='Почта' value-text='tigr.kman@gma' }}
-            {{> 'pages/profile/ProfileInfoRow' key-text='Логин' value-text='labllava' }}
-            {{> 'pages/profile/ProfileInfoRow' key-text='Имя' value-text='Тигран' }}
-            {{> 'pages/profile/ProfileInfoRow' key-text='Фамилия' value-text='Тигранович' }}
-            {{> 'pages/profile/ProfileInfoRow' key-text='Имя в чате' value-text='Тико' }}
-            {{> 'pages/profile/ProfileInfoRow' key-text='Телефон' value-text='+7 (909) 967 30 30' }}
+            {{#> 'pages/profile/ProfileInfoRow' key-text='Почта' }}
+                <input type="text" class="profile-input" value="tigr.kman@gma">
+            {{/ 'pages/profile/ProfileInfoRow'}}
+            {{#> 'pages/profile/ProfileInfoRow' key-text='Логин' }}
+                <input type="text" class="profile-input" value="labllava">
+            {{/ 'pages/profile/ProfileInfoRow'}}
+            {{#> 'pages/profile/ProfileInfoRow' key-text='Имя' }}
+                <input type="text" class="profile-input" value="Тигран">
+            {{/ 'pages/profile/ProfileInfoRow'}}
+            {{#> 'pages/profile/ProfileInfoRow' key-text='Фамилия' }}
+                <input type="text" class="profile-input" value="Тигранович">
+            {{/ 'pages/profile/ProfileInfoRow'}}
+            {{#> 'pages/profile/ProfileInfoRow' key-text='Имя в чате' }}
+                <input type="text" class="profile-input" value="Тико">
+            {{/ 'pages/profile/ProfileInfoRow'}}
+            {{#> 'pages/profile/ProfileInfoRow' key-text='Телефон' }}
+                <input type="text" class="profile-input" value="+7 (909) 967 30 30">
+            {{/ 'pages/profile/ProfileInfoRow'}}
             <!--    Rows  / -->
         {{/ 'pages/profile/ProfileInfoList'}}
     {{/ 'pages/profile/ProfileInfoContainer'}}
