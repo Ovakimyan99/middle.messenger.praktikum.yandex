@@ -14,7 +14,3 @@
     resize: none;
     word-break: break-all;
 }
-
-.input-message::placeholder {
-    color: var(--placeholder);
-}
