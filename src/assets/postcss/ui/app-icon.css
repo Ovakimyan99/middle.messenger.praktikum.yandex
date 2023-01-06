@@ -1,0 +1,55 @@
+.app-icon {
+    display: inline-block;
+}
+
+.app-icon.--arrow {
+    width: 1.2rem;
+    height: 1rem;
+}
+
+.app-icon.--arrow-pointer {
+    width: .8rem;
+    height: 1rem;
+}
+
+.app-icon.--check-message {
+    width: 1.2rem;
+    height: 1rem;
+}
+
+.app-icon.--search {
+    width: 1rem;
+    height: 1.5rem;
+}
+
+.app-icon.--file {
+    width: 2.2rem;
+    height: 2.2rem;
+}
+
+.app-icon.--location {
+    width: 2.2rem;
+    height: 2.2rem;
+}
+.app-icon.--materials {
+    width: 2rem;
+    height: 2rem;
+}
+
+.app-icon.--plus {
+    width: 2.2rem;
+    height: 2.2rem;
+}
+
+.app-icon.--static_resource {
+    width: 2.8rem;
+    height: 2.8rem;
+}
+.app-icon.--three_dots {
+    width: .3rem;
+    height: 1.5rem;
+}
+
+.app-icon.--circle-plus {
+    width: 2.2rem;
+}

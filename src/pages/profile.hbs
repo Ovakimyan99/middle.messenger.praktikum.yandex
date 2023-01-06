@@ -1,0 +1,55 @@
+{{!< profile}}
+
+{{#> 'pages/profile/ProfileInfoWrapper'}}
+    <!--    Image   -->
+    <div class="profile-info-image">
+        {{> 'common/AppProfileImage' icon=true size='large'}}
+        <span class="profile-info-image__overlay t3">
+            Показать<br>аватар
+        </span>
+    </div>
+
+    <div class="profile-info-name b1 c-text">Иван</div>
+
+    <!--    Container   -->
+    {{#> 'pages/profile/ProfileInfoContainer'}}
+        <!--    List   -->
+        {{#> 'pages/profile/ProfileInfoList'}}
+            <!--    Rows   -->
+            {{#> 'pages/profile/ProfileInfoRow' key-text='Почта' }}
+                tigr.kman@gmal
+            {{/ 'pages/profile/ProfileInfoRow'}}
+            {{#> 'pages/profile/ProfileInfoRow' key-text='Логин' }}
+                labllava
+            {{/ 'pages/profile/ProfileInfoRow'}}
+            {{#> 'pages/profile/ProfileInfoRow' key-text='Имя' }}
+                Тигран
+            {{/ 'pages/profile/ProfileInfoRow'}}
+            {{#> 'pages/profile/ProfileInfoRow' key-text='Фамилия' }}
+                Тигранович
+            {{/ 'pages/profile/ProfileInfoRow'}}
+            {{#> 'pages/profile/ProfileInfoRow' key-text='Имя в чате' }}
+                Тико
+            {{/ 'pages/profile/ProfileInfoRow'}}
+            {{#> 'pages/profile/ProfileInfoRow' key-text='Телефон' }}
+                +7 (909) 967 30 30
+            {{/ 'pages/profile/ProfileInfoRow'}}
+            <!--    Rows  / -->
+        {{/ 'pages/profile/ProfileInfoList'}}
+    {{/ 'pages/profile/ProfileInfoContainer'}}
+
+    <!--    Container   -->
+    {{#> 'pages/profile/ProfileInfoContainer' class-container='profile-info-container--links'}}
+        <!--    List   -->
+        {{#> 'pages/profile/ProfileInfoList'}}
+            <!--    Rows   -->
+            {{#> 'pages/profile/ProfileInfoRow' key-text='Изменить данные' class-key='c-accent'}}
+            {{/ 'pages/profile/ProfileInfoRow'}}
+            {{#> 'pages/profile/ProfileInfoRow' key-text='Изменить пароль' class-key='c-accent'}}
+            {{/ 'pages/profile/ProfileInfoRow'}}
+            {{#> 'pages/profile/ProfileInfoRow' key-text='Выйти' class-key='c-error'}}
+            {{/ 'pages/profile/ProfileInfoRow'}}
+            <!--    Rows  / -->
+        {{/ 'pages/profile/ProfileInfoList'}}
+    {{/ 'pages/profile/ProfileInfoContainer'}}
+{{/ 'pages/profile/ProfileInfoWrapper'}}
